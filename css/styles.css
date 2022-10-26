@@ -279,7 +279,11 @@ textarea{
 .modal-link{
     display: inline;
     color: var(--akcent-color);
-    text-decoration: underline;}
+    text-decoration: underline;
+    font-size: 14px;
+    line-height:1.7;
+    letter-spacing: 0.03em;
+}
 .modal-icon{
     position: absolute;
     width: 18px;
@@ -299,24 +303,26 @@ textarea{
     display:block;
     margin-bottom: 30px;}
 .checkbox-icon{
-    
     display:inline-block;
+    transform: translateY(2px);
+
+    width: 16px;
+    height: 15px;
+    margin-right: 6px;
    
-    content: "";
-    width: 18px;
-    height: 16px;
-    background-color: tomato;
+    background-color: var(--akcent-color);
+    border-color: transparent;
+    border-radius: 2px;
+    background-image:url(../images/icons.svg#icon-icon-check-white);
+    background-size: contain;
+    background-origin: border-box;
 }    
 .checkbox{
     appearance: none;
      position: absolute;}  
 .checkbox:checked +.checkbox-icon{
-    background-color:var(--akcent-color);
+    background-color:tomato;
 }      
-/* .chek-div input[type='checkbox']{
-    border: 2px solid #212121;
-    margin-right: 9px;
-}    */
 .modal-title{
     display: inline-block;
     font-family: 'Roboto';
