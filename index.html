@@ -36,7 +36,7 @@
                                 </svg>+38 096 111 11 11
                             </a>
                         </li>
-                     </ul>
+                     </ul >
                 </nav>    
              </div>
         </header>
@@ -78,17 +78,13 @@
                                  </div>
                                  <label class="modal-chek">
                                      <input class="checkbox" type="checkbox" name="checkbox"/>
-                                     <span class="checkbox-icon">
-                                        <svg>
-                                            <use href="./images/icons.svg#icon-icon-check-white"></use>
-                                        </svg>
-                                     </span>
+                                     <span class="checkbox-icon"></span>
                                      Погоджуюся з розсилкою та приймаю  
                                      <a class="modal-link" href="">Умови договору</a>                  
                                  </label>
                              <button class="btn-submit" type="submit">Відправити</button>                            
                          </form>
-                        <button class="modal-button"data-modal-close >
+                        <button class="modal-button" data-modal-close>
                             <svg class="close-img">
                             <use href="./images/icons.svg#icon-close-black"></use>    
                             </svg>
@@ -421,7 +417,20 @@
                                 </li>
                             </ul>
                      </div>
-                </div>     
+                     <div class="footer-form">
+                         <p class="form-title">ПІДПИШИТЬСЯ НА РОЗСИЛКУ</p>
+                         <form autocomplete="off" name="form-footer">
+                             <label class="foot-mail">
+                                  <input class="foot-input" placeholder="E-mail" type="email" name="email"/>
+                             </label>
+                             <button class="foot-btn" type="submit"><span class="welcome">Підписатися</span>
+                                 <svg class="foot-icon">
+                                     <use href="./images/icons.svg#icon-icon-send"></use>
+                                 </svg>
+                             </button>
+                         </form>
+                     </div>
+                 </div>        
              </div>
         </footer>
         <script src="./js/modal.js"></script>

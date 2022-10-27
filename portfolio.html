@@ -204,8 +204,7 @@
                     </address>    
                 </div>  
                 <div class="footer-link">
-                    <h2 class="footer-title">Приєднуйтесь</h2>
-                    <div>
+                    <p class="footer-title">Приєднуйтесь</p>
                        <ul class="footer-list">
                            <li>
                                <a href="" class="footer-icon">
@@ -236,13 +235,23 @@
                                </a>
                            </li>
                        </ul>
-                    </div>
-                    
-
                 </div>
-           </div>     
+                <div class="footer-form">
+                    <p class="form-title">ПІДПИШИТЬСЯ НА РОЗСИЛКУ</p>
+                    <form autocomplete="off" name="form-footer">
+                        <label class="foot-mail">
+                             <input class="foot-input" placeholder="E-mail" type="email" name="email"/>
+                        </label>
+                        <button class="foot-btn" type="submit"><span class="welcome">Підписатися</span>
+                            <svg class="foot-icon">
+                                <use href="./images/icons.svg#icon-icon-send"></use>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>        
         </div>
    </footer>
-    </body>
-    
+   <script src="./js/modal.js"></script>
+</body>
 </html>
